@@ -461,7 +461,7 @@ def disp_im(im, title='', lmin=0, lmax=255):
     ax = fig.add_axes([0,0,1,1])
     ax.imshow(im, cmap='gray', vmin=lmin, vmax=lmax)
     plt.axis('off')
-    fig.canvas.set_window_title(title)
+    plt.title(title)
 
 
 # lokalna normalizacija Gaus
