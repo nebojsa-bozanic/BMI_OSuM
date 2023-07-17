@@ -43,5 +43,5 @@ Potrebne biblioteke: math, scipy, cv2, numpy, matplotlib.pyplot
 ## 5. Manipulacija Laplasove piramide  
   5.1 Pomnožiti svaki nivo Laplasove piramide ponaosob faktorom 2 i zatim rekonstruisati sliku koristeći tako modifikovanu piramidu. Prikazati originalnu sliku i slike dobijene nakon rekonstrukcije nakon modifikacije svakog od nivoa. Šta je efekat ove modifikacije i kako se manifestuje na različitim nivoima? Da li je rekonstrukcija idealna?  
   5.2 Ponoviti korake iz 5.1 koristeći faktor 5. Šta se promenilo?  
-  5.3 Za svaki nivo Laplasove piramide ponaosob, postaviti sve koeficijenta koji imaju apsolutnu vrednost manju od 10 na 0. Rekonstruisati sliku nakon modifikacije svakog nivoa i prikazati je. Koji je efekat ove modifikacije? Šta se dešava kada se suzbiju malikoeficijenti na nižim, a šta navišim nivoima? Kakav je efekat na šum, a kakav na kontrast?  
+  5.3 Za svaki nivo Laplasove piramide ponaosob, postaviti sve koeficijenta koji imaju apsolutnu vrednost manju od 10 na 0. Rekonstruisati sliku nakon modifikacije svakog nivoa i prikazati je. Koji je efekat ove modifikacije? Šta se dešava kada se suzbiju mali koeficijenti na nižim, a šta navišim nivoima? Kakav je efekat na šum, a kakav na kontrast?  
   5.4 Ponoviti korake iz 5.3 koristeći prag 30. Analizirati efekte.
