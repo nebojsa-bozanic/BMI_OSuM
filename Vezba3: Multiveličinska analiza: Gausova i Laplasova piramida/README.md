@@ -1,9 +1,13 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebojsa-bozanic/OSuM/blob/master/Vezba3%3A%20Multiveli%C4%8Dinska%20analiza%3A%20Gausova%20i%20Laplasova%20piramida/OSuM_vezba_3.ipynb)
+
 # Laboratorijska vežba 3: Multiveličinska analiza: Gausova i Laplasova piramida
 
 Potrebne biblioteke: math, scipy, cv2, numpy, matplotlib.pyplot
 
 ## 1. Gausov filtar  
   1.1 U modulu osum.py napisati funkciju gaussian koja pravi 1D Gausov filtar. Parametri filtra su broj odbiraka (n) i standardna devijacija (sigma). Definisati default-ne vrednosti za parametre. Proizvoljno, izlaz funkcije takođe može biti i x-osa za crtanje grafika. Jednodimenzionalni Gausov filtar dat je izrazom:  
+  
+  $$ G(x) = \frac{1}{\sqrt{2 \pi σ^2}} e^{- \frac{x^2}{2 \sigma^2}} $$
   
   1.2 U glavnoj skripti vezba3.py pomoću prethodno definisane funkcije napraviti Gausov filtar f sa parametrima n=7 i sigma=1.5. Koliko iznosi vrednost centralnog, a koliko vrednost ugaonih koeficijenata (odbiraka) ovog filtra?  
   1.3 Prikazati koeficijente ovog filtra.  
