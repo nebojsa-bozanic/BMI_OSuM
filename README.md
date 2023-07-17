@@ -15,7 +15,7 @@ Pregled vežbi:
 [7: Obrada rendgenske slike: Suzbijanje šuma 1](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba7%3A%20Obrada%20rendgenske%20slike%3A%20Suzbijanje%20%C5%A1uma%201/README.md)  
 [8: Obrada rendgenske slike: Suzbijanje šuma 2](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba8%3A%20Obrada%20rendgenske%20slike%3A%20Suzbijanje%20%C5%A1uma%202/README.md)  
 [9: Obrada rendgenske slike: Toniranje snimaka](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba9%3A%20Obrada%20rendgenske%20slike%3A%20Toniranje%20snimaka/README.md)  
-10: Sjedinjavanje multi-modalnih slika  
-11: Z-normalizacija i objektivne mere  
+[10: Sjedinjavanje multi-modalnih slika](https://github.com/nebojsa-bozanic/BMI_OSuM/edit/master/Vezba10%3A%20Sjedinjavanje%20multi-modalnih%20slika/README.md)  
+[11: Z-normalizacija i objektivne mere](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba11%3A%20Z-normalizacija%20i%20objektivne%20mere/README.md)  
 12: Perspektivne transformacije i kruta registracija  
 13: Segmentacija primenom praga  
