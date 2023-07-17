@@ -9,7 +9,7 @@ Pregled vežbi:
 [1: Osnovne manipulacije](https://github.com/nebojsa-bozanic/OSuM/blob/master/Vezba1%3A%20Osnovne%20manipulacije/README.md)  
 [2: Manipulacije nad 3D slikom](https://github.com/nebojsa-bozanic/OSuM/blob/master/Vezba2%3A%20Manipulacije%20nad%203D%20slikom/README.md)  
 [3: Multiveličinska analiza: Gausova i Laplasova piramida](https://github.com/nebojsa-bozanic/OSuM/blob/master/Vezba3%3A%20Multiveli%C4%8Dinska%20analiza%3A%20Gausova%20i%20Laplasova%20piramida/README.md)  
-4: Multiveličinska analiza: Vejvlet piramida  
+[4: Multiveličinska analiza: Vejvlet piramida](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba4%3A%20Multiveli%C4%8Dinska%20analiza%3A%20Vejvlet%20piramida/README.md)  
 5: Obrada rendgenske slike: Logaritamska kompresija opsega  
 6: Obrada rendgenske slike: Multiveličinsko pojačavanje strukture u slikama  
 7: Obrada rendgenske slike: Suzbijanje šuma 1  
