@@ -13,8 +13,8 @@ Pregled vežbi:
 [5: Obrada rendgenske slike: Logaritamska kompresija opsega](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba5%3A%20Obrada%20rendgenske%20slike%3A%20Logaritamska%20kompresija%20opsega/README.md)  
 [6: Obrada rendgenske slike: Multiveličinsko pojačavanje strukture u slikama](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba6%3A%20Obrada%20rendgenske%20slike%3A%20Multiveli%C4%8Dinsko%20poja%C4%8Davanje%20strukture%20u%20slikama/README.md)  
 [7: Obrada rendgenske slike: Suzbijanje šuma 1](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba7%3A%20Obrada%20rendgenske%20slike%3A%20Suzbijanje%20%C5%A1uma%201/README.md)  
-8: Obrada rendgenske slike: Suzbijanje šuma 2  
-9: Obrada rendgenske slike: Toniranje snimaka  
+[8: Obrada rendgenske slike: Suzbijanje šuma 2](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba8%3A%20Obrada%20rendgenske%20slike%3A%20Suzbijanje%20%C5%A1uma%202/README.md)  
+[9: Obrada rendgenske slike: Toniranje snimaka](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba9%3A%20Obrada%20rendgenske%20slike%3A%20Toniranje%20snimaka/README.md)  
 10: Sjedinjavanje multi-modalnih slika  
 11: Z-normalizacija i objektivne mere  
 12: Perspektivne transformacije i kruta registracija  
