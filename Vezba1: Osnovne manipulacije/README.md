@@ -13,8 +13,9 @@ Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, pydicom
    
 ## 2. Tipovi podataka i dubina sive skale  
   Dva osnovna tipa podataka kojima su predstavljeni pikseli slike:  
-    1. float – može da prikaže decimalne vrednosti  
-    2. integer – celobrojne vrednosti  
+    - float – može da prikaže decimalne vrednosti  
+    - integer – celobrojne vrednosti
+
   Znak: unsigned (uint) – prikazuje nenegativne vrednosti signed (int) – prikazuje i negativne vrednosti  
   Veličina: 8, 16, 32… - broj bita kojim je predstavljen jedna piksel  
   2.1 U promenljivu im3 učitati sliku rtg_2.png. U pitanju je uint16 slika, pa je potrebno izabrati odgovarajući režim.  
@@ -42,7 +43,7 @@ Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, pydicom
 
 ## 6. Histogram  
   6.1 Napraviti histogram slike im1 u opsegu od 0 do 255 sa korakom 1. Koliko odbiraka ima u ovom vektoru? Prikazati histogram.  
-  6.2 Napravit normalizovani histogram? Šta je normalizovani histogram? Prikazati ga.  
+  6.2 Napraviti normalizovani histogram? Šta je normalizovani histogram? Prikazati ga.  
   6.3 Koliki udeo (%) slike im1 ima vrednost 206?  
   6.4 Koliki udeo (%) slike im1 ima vrednost ispod 200?
 
