@@ -10,9 +10,9 @@ Pregled vežbi:
 [2: Manipulacije nad 3D slikom](https://github.com/nebojsa-bozanic/OSuM/blob/master/Vezba2%3A%20Manipulacije%20nad%203D%20slikom/README.md)  
 [3: Multiveličinska analiza: Gausova i Laplasova piramida](https://github.com/nebojsa-bozanic/OSuM/blob/master/Vezba3%3A%20Multiveli%C4%8Dinska%20analiza%3A%20Gausova%20i%20Laplasova%20piramida/README.md)  
 [4: Multiveličinska analiza: Vejvlet piramida](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba4%3A%20Multiveli%C4%8Dinska%20analiza%3A%20Vejvlet%20piramida/README.md)  
-[5: Obrada rendgenske slike: Logaritamska kompresija opsega](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba5%3A%20Obrada%20rendgenske%20slike%3A%20Logaritamska%20kompresija%20opsega/README.md)
-6: Obrada rendgenske slike: Multiveličinsko pojačavanje strukture u slikama  
-7: Obrada rendgenske slike: Suzbijanje šuma 1  
+[5: Obrada rendgenske slike: Logaritamska kompresija opsega](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba5%3A%20Obrada%20rendgenske%20slike%3A%20Logaritamska%20kompresija%20opsega/README.md)  
+[6: Obrada rendgenske slike: Multiveličinsko pojačavanje strukture u slikama](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba6%3A%20Obrada%20rendgenske%20slike%3A%20Multiveli%C4%8Dinsko%20poja%C4%8Davanje%20strukture%20u%20slikama/README.md)  
+[7: Obrada rendgenske slike: Suzbijanje šuma 1](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba7%3A%20Obrada%20rendgenske%20slike%3A%20Suzbijanje%20%C5%A1uma%201/README.md)  
 8: Obrada rendgenske slike: Suzbijanje šuma 2  
 9: Obrada rendgenske slike: Toniranje snimaka  
 10: Sjedinjavanje multi-modalnih slika  
