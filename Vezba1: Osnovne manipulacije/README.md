@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebojsa-bozanic/OSuM/blob/master/Vezba1%3A%20Osnovne%20manipulacije/OSuM_vezba_1.ipynb)
+
 # Laboratorijska vežba 1: Osnovne manipulacije
 
 Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, pydicom
