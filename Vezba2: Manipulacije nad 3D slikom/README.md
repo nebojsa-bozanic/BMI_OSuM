@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebojsa-bozanic/OSuM/blob/master/Vezba2%3A%20Manipulacije%20nad%203D%20slikom/OSuM_vezba_2.ipynb)
+
 # Laboratorijska vežba 2: Manipulacije nad 3D slikom
 
 Potrebne biblioteke: pydicom, cv2, numpy, matplotlib.pyplot, matplotlib.widgets
