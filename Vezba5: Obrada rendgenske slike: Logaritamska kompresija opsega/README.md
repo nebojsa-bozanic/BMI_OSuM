@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/Vezba5%3A%20Obrada%20rendgenske%20slike%3A%20Logaritamska%20kompresija%20opsega/OSuM_vezba_5.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebojsa-bozanic/OSuM/blob/master/OSuM_Vezba6/OSuM_Vezba6/OSuM_vezba_6.ipynb)
 
 # Laboratorijska vežba 5: Obrada rendgenske slike: Logaritamska kompresija opsega
 
