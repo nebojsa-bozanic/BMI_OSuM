@@ -26,7 +26,9 @@ Deo opsega koji se suzbija u modifikovanim sigmoidalnim krivama može se precizn
 
   2.1 U promenljivu im2 učitati sliku abdomen.png i razložiti je u vejvlet piramidu sa 2 nivoa koristeći vejvlet db4.  
   2.2 Proceniti standardnu devijaciju šuma sa dijagonalnih koeficijenata prvog nivoa piramide koristeći formulu:
-𝜎! = 𝑚𝑒𝑑𝑖𝑎𝑛(|𝐷"|) 0.6745
+
+  $$ 𝜎_N = \frac{𝑚𝑒𝑑𝑖𝑎𝑛(|𝐷_1|)}{0.6745} $$
+  
   2.3 Modifikovati sigmLUT_z tako da je moguće uneti apsolutnu vrednost intenziteta ispod koga će koeficijenti biti suzbijeni.  
   2.4 Napraviti LUT za sigmoidalno pojačanje i LUT sa direktnim potiskivanjem šuma koristeći parametre ip_range=1000, op_range=800, k=7 i nivo intenziteta 3𝜎!.  
   2.5 Rekonstruisati slike sa modifikovanim prvim nivoom vejvlet piramide u dijagonalnom pravcu i uporediti ih.
@@ -38,7 +40,7 @@ Deo opsega koji se suzbija u modifikovanim sigmoidalnim krivama može se precizn
 
 ## 4. Temporalno filtriranje  
   4.1 U skripti v8_3.py učitati fluoroskopsku sekvencu iz foldera Img_1 u 3D matricu im_sekv  
-  4.2 Napraviti LUT za logaritamsku kompresiju opsega sa ulaznim i izlaznim opsegom 2"# i tolerancijom ulaznog opsega 0.1 %  
+  4.2 Napraviti LUT za logaritamsku kompresiju opsega sa ulaznim i izlaznim opsegom $2^{16}$ i tolerancijom ulaznog opsega 0.1 %  
   4.3 Definisati parametre za pravljenje video zapisa  
   4.4 U for petlji učitati frejm po frejm i primeniti log kompresiju opsega. Invertovati vrednosti i upisati frejm u video sekvencu u opsegu uint8  
   4.5 Definisati 1D Gausov filtar sa parametrima n=11 i sigma=2. Primeniti ovaj filtar za filtriranje sekvence kroz vreme (temporalno filtriranje) i sačuvati je u im_f.
