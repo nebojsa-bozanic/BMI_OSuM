@@ -14,8 +14,13 @@ Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, osum
 
 ## 2. Perspektivne transformacije  
   2.1 Test slika je translirana u odnosu na referentnu, pa ju je potrebno transformisati (translirati) kako bi se geometrijski poklopila sa referentnom slikom. Zapravo se translira definisani region na test slici. Nakon odabiranja referentne slike potrebno je modifikovati koordinate [x, y] na kojima se odabira test slika tako da im se doda neki proizvoljni pomeraj, npr. (2,3). Pomeranje se mora uraditi odvojeno: x_tr = x + 2; y_tr = y + 3. Raditi sa z-normalizovanim slikama. Da li nakon translacije suma apsolutnih razlika između ROI-a referentne i test slike veća ili manja i šta taj rezultat znači?  
-  2.2 Za registraciju naše test slike na referentnu dovoljna nam je transformacija translacijom, međutim postoje i druge perspektivne transformacije koje se mogu primeniti u registraciji. Rotirati referentnu sliku prvo oko koordinatnog početka u gornjoj levoj tački slike, a zatim oko centra slike, za proizvoljni ugao. Koordinate slike nakon rotacije oko proizvoljne tačke za ugao 𝜃 u radijanima definisane su sledećom transformacijom formula  
-  2.3 Uveličati (umanjiti) sliku proizvoljnim faktorom s (uveličanje iznosi 1/s) prvo iz koordinatnog početka u gornjem levom uglu, a zatim iz centra slike. Transformacija uveličanjem je definisana na sledeći način: formula  
+  2.2 Za registraciju naše test slike na referentnu dovoljna nam je transformacija translacijom, međutim postoje i druge perspektivne transformacije koje se mogu primeniti u registraciji. Rotirati referentnu sliku prvo oko koordinatnog početka u gornjoj levoj tački slike, a zatim oko centra slike, za proizvoljni ugao. Koordinate slike nakon rotacije oko proizvoljne tačke za ugao 𝜃 u radijanima definisane su sledećom transformacijom:  
+
+  $$ t_{crot}(\bf{p}, \bf{r}) = \begin{pmatrix} cos\theta & - sin\theta \\\\ sin\theta & cos\theta \end{pmatrix}\begin{pmatrix} x - x_c \\\\ y - y_c \end{pmatrix} + \begin{pmatrix} x_c \\\\ y_c \end{pmatrix} $$
+  
+  2.3 Uveličati (umanjiti) sliku proizvoljnim faktorom s (uveličanje iznosi 1/s) prvo iz koordinatnog početka u gornjem levom uglu, a zatim iz centra slike. Transformacija uveličanjem je definisana na sledeći način:  
+
+$$ t_{zoom}(p, r) = \begin{pmatrix} s & 0 \\\\ 0 & s \end{pmatrix}\begin{pmatrix} x - x_c \\\\ y - y_c \end{pmatrix} + \begin{pmatrix} x_c \\\\ y_c \end{pmatrix} $$
 
 ## 3. Kruta registracija translacijom  
   3.1 Napraviti GUI preko koga korisnik može da definiše referentni ROI za registraciju klikom na gornji levi, a zatim na donji desni ćošak regiona od interesa. Prikazati izabrani region.  
