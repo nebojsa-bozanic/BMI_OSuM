@@ -23,6 +23,10 @@ Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, osum
 
 Modulation Transfer Function, prenosna funkcija digitalnog panela kojim je snimana slika, prikazan je na slici ispod. Veličina piksela je 139 μm, ekvivalentno maksimalnoj rezoluciji 3.6 lp/mm (para linija po milimetru). MFT panela je određen „Std CsI“ krivama.
 
+<p align="center">
+  <img width="591" height="411" src="https://github.com/nebojsa-bozanic/BMI_OSuM/assets/28110404/bb9d1d4c-67c4-4a8d-8d77-68a722638eef">
+</p>
+
   3.1 Pretpostavljajući da je filter kojim radimo dekompoziciju piramide polu-opsežni, sračunati optimalne faktore pojačanja na svakom nivou piramide kako bi što bolje ispravili efekat MTF-a digitalnog panela u slici. Posmatrajte „Std CsI“ krive. Koje imaju vrednosti? Računati da je prosečan odziv u svakom opsegu vrednost MTF-a u sredini opsega. Kompenzujte njega pojačanjem da bude 1.  
   3.2 Dekomponovati sliku im_log do 6. nivo veličine u Laplasovu piramidu i pojačati svaki nivo detalja adekvatnim faktorom pojačanja za korekciju MTF (da odziv u celom opsegu bude 1).  
   3.3 Rekonstruisati sliku sa pojačanim slikama detalja. Uporediti dobijenu sliku sa slikom im_log.  
