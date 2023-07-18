@@ -5,9 +5,13 @@
 Potrebne biblioteke: cv2, numpy, matplotlib.pyplot, pywt (PyWavelets), dtcwt
 
 ## 1. Diskretna vejvlet transformacija
-  1.1 Napraviti skriptu dwt.py i u njoj učitati sliku mr_glava_1.jpg.
+  1.1 Napraviti skriptu dwt.py i u njoj učitati sliku mr_glava_1.jpg.  
   1.2 Primeniti 2D diskretnu vejvlet transformaciju kojom se dobija vejvlet piramida sa jednim nivoom. Koristiti db1 vejvlet. Izvući koeficijente u piramide u zasebne slike. Šta koja slika predstavlja?
   1.3 Prikazati piramidu koristeću subplot funkciju. Položaj koeficijenata je prikazan na slici ispod:
+
+<p align="center">
+  <img width="184" height="105" src="https://github.com/nebojsa-bozanic/BMI_OSuM/assets/28110404/fca864ec-e185-4bfc-ad35-4d0d0ff8cd81">
+</p>
   
   1.4 Rekonstruisati piramidu. Prikazati rekonstruisanu sliku i odrediti sumu apsolutnih razlika između originalne i rekonstruisane slike. Da li rekonstrukciju možemo smatrati idealnom?  
   1.5 Od iste ulazne slike napraviti vejvlet piramidu sa 3 nivoa. Koristiti db1 vejvlet. Pre formiranja slike piramide zameniti položaj cV i cH koeficijenata na svakom nivou, kako bi piramida bila organizovana na način prikazan iznad. Za potrebe prikaza normalizovati opseg (rekonstrukciju raditi sa nenormalizovanim koeficijentima). Analizirati šta se vidi na višim, a šta na nižim rezolucijama u sva tri pravca.  
