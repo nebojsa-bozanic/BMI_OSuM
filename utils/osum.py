@@ -25,15 +25,15 @@ def im_norm(im):
 
 def im_pyr_decomp(im, N):
 
-    size_vec  = im.shape
-    red_faktor = 2**N
-    add_size = np.flip([int((np.ceil(el / red_faktor) * red_faktor - el)) for el in im.shape])
-    [v, s] = im.shape
-    opim = np.zeros((add_size[1] + v, add_size[0] + s))
-    opim[0: v, 0: s] = im
-    opim[v + 1: v + add_size[1], :] = opim[v:v-add_size[1]+1:-1, :]
-    opim[:, s + 1: s + add_size[0]] = opim[:, s:s - add_size[0] + 1:-1]
-    im = opim
+    # size_vec  = im.shape
+    # red_faktor = 2**N
+    # add_size = np.flip([int((np.ceil(el / red_faktor) * red_faktor - el)) for el in im.shape])
+    # [v, s] = im.shape
+    # opim = np.zeros((add_size[1] + v, add_size[0] + s))
+    # opim[0: v, 0: s] = im
+    # opim[v + 1: v + add_size[1], :] = opim[v:v-add_size[1]+1:-1, :]
+    # opim[:, s + 1: s + add_size[0]] = opim[:, s:s - add_size[0] + 1:-1]
+    # im = opim
 
 
 
@@ -50,7 +50,7 @@ def im_pyr_decomp(im, N):
         LPyr.append(l)
         im = g
     Res = im
-    return LPyr, GPyr, Res, size_vec
+    return LPyr, GPyr, Res #, size_vec
 
 
 def im_pyr_recon(LPyr, Res, size_vec):
@@ -62,7 +62,7 @@ def im_pyr_recon(LPyr, Res, size_vec):
 
         Res = cv2.pyrUp(Res, cv2.BORDER_REFLECT)+LPyr[i-1]
 
-    Res = Res[0:size_vec[0], 0:size_vec[1]]
+    # Res = Res[0:size_vec[0], 0:size_vec[1]]
     im_rec = Res
     return im_rec
 
