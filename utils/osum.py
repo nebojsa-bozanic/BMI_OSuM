@@ -50,10 +50,10 @@ def im_pyr_decomp(im, N):
         LPyr.append(l)
         im = g
     Res = im
-    return LPyr, GPyr, Res #, size_vec
+    return LPyr, GPyr, Res #size_vec
 
 
-def im_pyr_recon(LPyr, Res, size_vec):
+def im_pyr_recon(LPyr, Res) #size_vec:
     # Funkcija rekonstruise sliku na osnovu Laplasove piramide i reziduala
 
     # dubina razlaganja
