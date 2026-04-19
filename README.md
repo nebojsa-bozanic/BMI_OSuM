@@ -1,7 +1,7 @@
 # Obrada Slike u Medicini (17.BMI121)
 
 <!-- Srpski - Engleski -->
-[SRB](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/README.md) &nbsp; [EN](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/docs/en/README-EN.md)
+[SRB](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/master/README.md) &nbsp; [EN](https://github.com/nebojsa-bozanic/BMI_OSuM/blob/dev/docs/README-EN.md)
 
 Ovaj repozitorijum sadrži materijale sa vežbi iz predmeta Obrada Slike u Medicini, koju izvodi [prof. dr Vladimir Petrović](https://www.ktios.ftn.uns.ac.rs/profesori/vladimir-petrovic/) sa asistentima. Predmet je u sklopu osnovnih akademskih studija, nastavnog programa [Biomedicinsko inženjerstvo](http://www.ftn.uns.ac.rs/n1467299313/biomedicinsko-inzenjerstvo), IMT Studije (Biomedicinsko inženjerstvo: Elektrotehničko i računarsko inženjerstvo; Medicinske nauke), Fakulteta Tehničkih Nauka u Novom Sadu. Predmet slušaju studenti 4. godina tokom letnjem semestra. Vežbe se izvode u NTP, Lab115L.
 
